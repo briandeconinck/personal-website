@@ -16,15 +16,23 @@
     <a id="skip-to-content" href="#content">Skip to the content.</a>
 
     <header class="page-header" role="banner">
-      <span class="project-name">{{ site.title | default: site.github.repository_name }}</span>
-      <span class="project-tagline">{{ site.description | default: site.github.project_tagline }}</span>
+      <a id="site-branding" href="{{ site.url }}" rel="home">
+        <span class="project-name">{{ site.title | default: site.github.repository_name }}</span>
+        <span class="project-tagline">{{ site.description | default: site.github.project_tagline }}</span>
+      </a>
       <nav id="main-navigation" aria-label="Main">
         <ul>
-        {% if site.github.is_project_page %}
           <li>
-            <a href="{{ site.github.repository_url }}">View on GitHub</a>
+            <a href="#">Placeholder Link</a>
           </li>
-        {% endif %}
+          
+          <li>
+            <a href="#">Placeholder Link</a>
+          </li>
+          
+          <li>
+            <a href="#">Placeholder Link</a>
+          </li>
         </ul>
     </header>
 
