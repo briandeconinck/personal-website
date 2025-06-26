@@ -13,6 +13,7 @@ a {
   text-decoration: underline;
   text-underline-position: under;
   color: #4300cc;
+  border-radius: 0.1rem;
 
   &:hover, &:focus, &:active {
     outline: solid 0.1rem #4300cc;
@@ -25,7 +26,7 @@ a {
 
 #pre-header {
   width: 100%;
-  padding: 0.25rem;
+  padding: 0.25rem 1rem;
   background: #f2f2f2;
   border-bottom: #999;
   font-size: .9rem;
@@ -34,6 +35,10 @@ a {
     display: inline-block;
     color: #000;
     padding: 0.1rem;
+
+    &:hover, &:focus, &:active {
+      color: #fff;
+    }
   }
 }
 
