@@ -24,7 +24,7 @@ a {
 /* Identity and site header */
 #site-branding {
   display: inline-block;
-  padding: 0.25rem;
+  padding: 0.5rem 1rem;
   text-decoration: none;
   font-size: 1.3rem;
   text-align: center;
@@ -34,7 +34,8 @@ a {
   &:hover, &:focus, &:active {
     background-color: #fff;
     color: #4300cc;
-    outline-width: .25rem;
+    outline-width: .35rem;
+    text-decoration: none;
   }
 }
 
