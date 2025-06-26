@@ -43,6 +43,12 @@ a {
   }
 }
 
+@media screen and (min-width: 37.5em) and (max-width: 53em) {
+  #site-branding {
+    font-size: 1.8rem;
+  }
+}
+
 #site-name {
   font-weight: bold;
 }
