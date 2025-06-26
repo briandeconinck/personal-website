@@ -17,8 +17,8 @@
 
     <header class="page-header" role="banner">
       <a id="site-branding" href="{{ site.url }}" rel="home">
-        <span class="project-name">{{ site.title | default: site.github.repository_name }}</span>
-        <span class="project-tagline">{{ site.description | default: site.github.project_tagline }}</span>
+        <span id="site-name">{{ site.title | default: site.github.repository_name }}</span>
+        <span id="site-description">{{ site.description | default: site.github.project_tagline }}</span>
       </a>
       <nav id="main-navigation" aria-label="Main">
         <ul>
