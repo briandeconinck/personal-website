@@ -22,6 +22,10 @@ a {
 }
 
 /* Identity and site header */
+#header-wrapper {
+  border-bottom: solid .1rem #333;
+}
+
 #site-branding {
   display: inline-block;
   padding: 0.5rem 1rem;
@@ -52,7 +56,6 @@ a {
   text-align: left;
   background-color: #fff;
   background-image: none;
-  border-bottom: solid .1rem #333;
 }
 
 /* Main content -- layout */
