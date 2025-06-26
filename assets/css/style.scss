@@ -21,6 +21,21 @@ a {
   }
 }
 
+/* Identity and site header */
+#site-branding {
+  display: block;
+  text-decoration: none;
+  font-size: 1.3rem;
+  text-align: center;
+  border: solid 0.25rem #fff;
+  border-radius: 0.25rem;
+  color: #000;
+}
+
+#site-name {
+  font-weight: bold;
+}
+
 /* Page Header */
 
 .page-header {
