@@ -5,7 +5,7 @@
 
 /* Global */
 
-*:focus, *:hover, *:active {
+*:focus {
   outline: solid 0.1rem #100099;
   outline-offset: 0.1rem;
 }
@@ -31,7 +31,7 @@ a {
 }
 
 button {
-  border-radius: 0.5rem;
+  border-radius: 0.75rem;
   padding: 0.2rem 0.35rem;
   border: solid 0.25rem #660066;
   background-color: #660066;
@@ -42,6 +42,7 @@ button {
   &:hover, &:focus, &:active {
     color: #660066;
     background-color: #FFCCFF;
+    outline-color: #660066;
   }
 
   &.secondary {
