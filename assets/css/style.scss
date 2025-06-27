@@ -27,6 +27,8 @@ a {
 
 button {
   border-radius: 0.5rem;
+  padding: 0.2rem 0.35rem;
+  border: solid 0.25rem #660066;
   background-color: #660066;
   color: #fff;
   text-transform: uppercase;
@@ -35,6 +37,11 @@ button {
   &:hover, &:focus, &:active {
     color: #660066;
     background-color: #FFCCFF;
+  }
+
+  &.secondary {
+    background-color: #fff;
+    color: #660066;
   }
 }
 
