@@ -23,10 +23,10 @@ a {
   padding: 0 0.1rem;
 
   &:hover, &:focus, &:active {
-    outline: solid 0.1rem #100099;
+    outline: solid 0.1rem #4300cc;
     color: #fff;
-    background-color: #100099;
-    text-decoration: underline #100099;
+    background-color: #4300cc;
+    text-decoration: underline #4300cc;
   }
 }
 
@@ -42,7 +42,7 @@ button {
   &:hover, &:focus, &:active {
     color: #660066;
     background-color: #FFCCFF;
-    outline-color: #660066;
+    outline: solid 0.1rem #660066;
   }
 }
 
@@ -86,7 +86,8 @@ button {
   &:hover, &:focus, &:active {
     color: #fff;
     text-decoration: underline #100099;
-    outline-width: .35rem;
+    outline: solid .35rem #100099;
+    background-color: #100099;
   }
 }
 
