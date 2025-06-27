@@ -62,8 +62,8 @@ a {
   color: #333;
 
   &:hover, &:focus, &:active {
- /*   background-color: #fff;
-    color: #4300cc; */
+    color: #fff;
+    text-decoration: underline #4300cc;
     outline-width: .35rem;
   }
 }
