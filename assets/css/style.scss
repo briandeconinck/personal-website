@@ -15,12 +15,13 @@ a {
   color: #4300cc;
   border-radius: 0.1rem;
   outline-offset: 0.1rem;
+  padding: 0 0.1rem;
 
   &:hover, &:focus, &:active {
-    outline: solid 0.1rem #4300cc;
+    outline: solid 0.1rem #000080;
     color: #fff;
-    background-color: #4300cc;
-    text-decoration: underline #4300cc;
+    background-color: #000080;
+    text-decoration: underline #000080;
   }
 }
 
@@ -63,7 +64,7 @@ a {
 
   &:hover, &:focus, &:active {
     color: #fff;
-    text-decoration: underline #4300cc;
+    text-decoration: underline #000080;
     outline-width: .35rem;
   }
 }
