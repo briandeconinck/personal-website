@@ -62,11 +62,9 @@ a {
   color: #333;
 
   &:hover, &:focus, &:active {
-    background-color: #fff;
-    color: #4300cc;
+ /*   background-color: #fff;
+    color: #4300cc; */
     outline-width: .35rem;
-    text-decoration: underline #333;
-    text-decoration-thickness: 0.1rem;
   }
 }
 
