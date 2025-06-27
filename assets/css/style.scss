@@ -5,6 +5,11 @@
 
 /* Global */
 
+*:focus, *:hover, *:active {
+  outline: solid 0.1rem #100099;
+  outline-offset: 0.1rem;
+}
+
 body {
   color: #333;
 }
