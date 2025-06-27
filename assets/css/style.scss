@@ -52,7 +52,9 @@ a {
 #site-branding {
   display: inline-block;
   padding: 0.5rem 1rem;
-  text-decoration: none;
+  text-underline-offset: 0.2rem;
+  text-decoration: underline #666;
+  text-decoration-thickness: 0.05rem;
   font-size: 1.3rem;
   text-align: center;
   border-radius: 0.25rem;
